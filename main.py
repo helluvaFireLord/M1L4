@@ -35,4 +35,4 @@ async def пароль(message):
 @bot.command()
 async def монетка(message):
       await message.send(coin()) 
-bot.run("MTEwNDY3MzI1MDU4OTU0MDQ2Mg.GSByYx.fVjjIvlP-wjwhckevFNqkwFk1rvH8NfOavNv2s")
+bot.run("")
