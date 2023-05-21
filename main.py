@@ -24,15 +24,15 @@ async def on_message(message):
     if message.author == bot.user:
         return
 @bot.command()
-async def hello(message):
+async def hello():
       await message.send("Hi!")
 @bot.command()
-async def bye(message):
+async def bye():
       await message.send("\\U0001f642")     
 @bot.command()
-async def пароль(message):
+async def password():
       await message.send(gen_pass(10))       
 @bot.command()
-async def монетка(message):
+async def flip():
       await message.send(coin()) 
 bot.run("")
